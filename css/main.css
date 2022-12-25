@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.bodyaccueil{
+  background-color: darkred;
+  background-image: url(../images/moi_muffin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
+  /*background:#400303;*/
+  color: #E8CFCF;
+}
+.bodymenu{
+  font-family: 'Inter', sans-serif;
+  background-image:  url(../images/moi_muffin_flou.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #E8CFCF;
+}
+
+.bodyprojet{
+  background-color:darkred;
+  font-family: 'Inter', sans-serif;
+  background-image:  url(../images/moi_muffin_gris.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #400303;
+}
+
+h1{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  max-width: 60em;
+  margin: auto;    
+  justify-content: center;
+  font-size: 3em;
+  font-weight: bold;
+
+}
+
+h2{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  max-width: 40em;
+  margin: auto;    
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3{
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+body{
+  margin-bottom: 70px;
+}
+
+.bouton_menu{
+  padding-left: 20px;
+  text-decoration: none;
+  width: 80px;
+  font-weight: bold;
+  color: #E8CFCF
+}
+
+.menu{
+  /*background-color: #E8CFCF;*/
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  width: 380px;
+}
+
+.lien{
+  position: relative;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 7px;
+  text-decoration: none;
+  color: #E8CFCF
+}
+
+.divlien{
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #E8CFCF;
+  font-weight: bold;
+}
+
+.titrepages{
+  text-align: center;
+  font-size: 3em;
+  font-style: italic;
+}
+
+/*.titreprojet{
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.soustitreprojet{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2em;
+  font-weight: bold;
+}*/
+
+.descriptionprojet{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  max-width: 40em;
+  margin: auto;    
+  justify-content: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.bouton_pagesprojets{
+  color: #400303;
+  padding-left: 20px;
+  text-decoration: none;
+  width: 80px;
+  font-weight: bold;
+}
+
+.menu_pagesprojets{
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  width: 380px;
+}
+
+.video_player{
+  margin-top: 5%;
+  text-align: center;
+}
+.video{
+  width: 80%;
+  height: auto;
+  justify-content: center;
+}
+
+.galerie{
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.image_sanrio{
+  width: 300px;
+  margin: 20px;
+  height: auto;
+  filter: drop-shadow(10px 10px 10px #323232);
+}
+
+.image_girlzine{
+  width: 30%;
+  margin: 2%;
+  height: auto;
+  filter: drop-shadow(10px 10px 10px #323232);
+}
+
+.image_design{
+  width: 40%;
+  margin: 10px;
+}
+
+#charte{
+  width: 45%;
+  margin-bottom: 15px;
+  padding: 20 px;
+}
+
+#post{
+  width: 25%;
+  margin: 5px;
+}
+
+#story{
+  width: 20%;
+  margin-bottom: 15px;
+}
+
+.image_portrait{
+
+  width: 35%;}
+
+#mockup{
+  width: 55%;
+  margin: 20px;
+}
+
+.fleche_tuteure{
+  width: 50%;
+}
+
+.image_tuteure{
+  width: 25%;
+}
+
+.mockup_self{
+  width: 50%;
+}
+
+.self_pdf{
+  width: 50%;
+  height: 500px;
+}
